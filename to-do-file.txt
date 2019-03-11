@@ -1,0 +1,26 @@
+#suggestions by Divyank
+
+1) Abstract Class in Python
+
+2) template based pattern in python
+
+3) Factory pattern in Python          *Done*
+
+4) Add logging to your library (Binary tree implementation)
+
+Tree:
+   Functions such as insert, delete and search/find 
+   
+   Differentiator functoins: merge and linking become specific for a tree
+
+   Node Structure.
+     - number of keys
+	   - Key comparison strategy
+	   
+#RT2's to-do points
+
+1.  GitHub setup                      *Done*
+	1.1 Readme                          *Done*
+	1.2 Put Binary Tree into repo
+2.  Pytest setup
+3.  
