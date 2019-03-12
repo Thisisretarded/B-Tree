@@ -19,8 +19,10 @@ Tree:
 	   
 #RT2's to-do points
 
-1.  GitHub setup                      *Done*
-	1.1 Readme                          *Done*
+1.  GitHub setup                      		*Done*
+	1.1 Readme                          	*Done*
 	1.2 Put Binary Tree into repo
-2.  Pytest setup
+2.  Pytest setup				*Done*
 3.  write a Btree code for 3-way tree and then think on generic n-way B-tree
+4.  how to make efficient array of objects in python
+5.  
