@@ -16,14 +16,19 @@ following will be the structure os a node
             #####################################################
 """
 
-Class bptNode:
+from bptsubnode import bptsubnode
+
+Class bptNode(list):
     """Node class for B+Tree of order 3"""
 
-    def __init__(self, order = 2, **kwargs, isleaf = True):
-        z = dict()
-
-        self.isleaf = isleaf
-        for x in range(order):
+    def __init__(self, data, key, order = 4, isleaf = True):
+       self.node = [ bptsubnode(data, key), None ]
+       self.order = order
+       self.isleaf = isleaf
 
 
     def insert(self, key):
+        pass
+
+    def len(self):
+        return self.__len__() - 1
